@@ -1,0 +1,21 @@
+<!-- left sidebar -->
+<md-sidenav md-colors="{ background: 'primary' }" class="mdDashboard-sidenav-left md-sidenav-left md-whiteframe-z2" ng-if="layout.sideMenuSize !== 'off'" md-component-id="left" md-is-locked-open="layout.sideMenuSize !== 'hidden' && $mdMedia('gt-sm')" ui-view="sidebarLeft" ng-class="{ 'admin-sidebar-collapsed': layout.sideMenuSize == 'icon' }" ng-mouseover="stateController.activateHover()" ng-mouseleave="stateController.removeHover()"></md-sidenav>
+
+<!-- main content -->
+<div class="mdDashboard-toolbar-and-content" layout="column" flex>
+    <!-- loading animation -->
+    <!-- <mdd-loader></mdd-loader> -->
+
+    <!-- top toolbar -->
+    <md-toolbar class="mdDashboard-toolbar md-whiteframe-z1" ng-if="layout.showToolbar" ng-class="[layout.toolbarSize,layout.toolbarClass]" md-theme="{{mddSkin.elements.toolbar}}" ui-view="toolbar"></md-toolbar>
+
+    <!-- scrollable content -->
+    <md-content class="mdDashboard-content" ng-class="layout.contentClass" flex ui-view></md-content>
+
+    <div ui-view="belowContent"></div>
+
+    <div class="mdDashboard-loader" ng-show="stateController.showLoader" layout="column" ui-view="loader"></div>
+</div>
+
+<!-- right sidebar -->
+<md-sidenav layout layout-fill class="mdDashboard-sidenav-right md-sidenav-right md-whiteframe-z2" md-component-id="notifications" ui-view="sidebarRight"></md-sidenav>
