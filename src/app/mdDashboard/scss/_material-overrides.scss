@@ -1,4 +1,4 @@
-// Overrides
+//重複寫入 Overrides
 
 a {
   color: #00BCD4;
@@ -41,7 +41,7 @@ ui-gmap-google-map img {
   line-height: 2.2rem;
 }
 
-// datepicker background
+// 資料 datepicker 背景 background
 md-datepicker, md-datepicker .md-datepicker-input {
   background: none !important;
 }
@@ -49,13 +49,13 @@ md-datepicker, md-datepicker .md-datepicker-input {
   vertical-align: middle;
 }
 
-// md-data-table stop transition on toolbars
+// md-data-table 固定在工具列上 stop transition on toolbars
 
 .md-table-toolbar {
   transition: none;
 }
 
-// Fix for ie11 dashboards table-layout
+//修改外觀 Fix for ie11 dashboards table-layout
 @media screen and (max-width: $layout-breakpoint-xs) {
   .os-windows .layout-column > .flex, .layout-xs-column > .flex {
       flex-basis: auto;

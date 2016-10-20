@@ -1,13 +1,13 @@
-// Notification Panel
+//通知欄 Notification Panel
 .admin-notifications {
-  // - Tab adjustment to match toolbar height
+  // - 調整高度 Tab adjustment to match toolbar height
   md-tabs-canvas, md-pagination-wrapper {
     height: 64px;
   }
   md-tabs-content-wrapper {
     top: 64px;
   }
-  // - Tab icon adjustment to match toolbar positino
+  // - 標籤符號修正高度 Tab icon adjustment to match toolbar position
   .md-tab .md-font {
     font-size: 2.0rem;
     vertical-align: middle;
@@ -17,7 +17,7 @@
   md-tab-item {
     max-width:100%!important;
   }
-  // - List item font size
+  // - 列表字型大小 List item font size
   md-list-item {
     p {
       font-size: 1.3rem;

@@ -1,4 +1,4 @@
-// Widget
+// 元件 Widget
 .widget {
   position: relative;
   background-size: cover;
@@ -126,7 +126,7 @@ chart-legend ul {
   }
 }
 
-// Calendar widget
+// 日曆元件 Calendar Widget
 .widget-calendar {
   .fc-ltr .fc-basic-view .fc-day-number {
     text-align: center;
@@ -158,7 +158,7 @@ chart-legend ul {
   }
 }
 
-// Chat widget
+// 對話元件 Chat Widget
 .widget-chat {
   .user-left, .user-right {
     max-width: 70%;
@@ -245,7 +245,7 @@ $shadow-key-umbra-opacity:      0.2;
 $shadow-key-penumbra-opacity:   0.14;
 $shadow-ambient-shadow-opacity: 0.12;
 
-// Draggable widgets
+// 可拖拉的元件 Draggable Widgets
 .drag-container > .widget {
   &:hover {
     cursor: move;

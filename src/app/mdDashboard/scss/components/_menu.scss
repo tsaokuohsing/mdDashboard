@@ -1,11 +1,11 @@
-// Side menu
+//側表單 Side menu
 mdd-menu {
   overflow-y: auto;
   z-index: 1;
   transform: translateZ(0);
 }
 
-/* Style for scrollbar on webkit browsers in windows - looks nice already on other operating systems ;) */
+/* 滾動欄 Style for scrollbar on webkit browsers in windows - looks nice already on other operating systems ;) */
 .os-windows side-menu, .os-windows md-content {
   &::-webkit-scrollbar {
     width: 8px;
@@ -75,7 +75,7 @@ mdd-menu {
 }
 
 
-// Side menu Badges
+// 側表單 Side menu Badges
 .side-menu-badge {
   border-radius: 8px;
   padding: 6px 8px;
@@ -85,7 +85,7 @@ mdd-menu {
 }
 
 
-// Side menu levels
+//側表單的層次 Side menu levels
 .drop-down-list {
   list-style-type: none;
   padding: 0;
@@ -140,7 +140,7 @@ mdd-menu {
 }
 
 
-// Multiple levels
+// 多重層次 Multiple levels
 $submenu-overlay: #999999;
 
 .drop-down-list:not(.ng-hide) {
@@ -177,7 +177,7 @@ $submenu-overlay: #999999;
   }
 }
 
-// Collapsible Menu
+// 可伸縮的表單 Collapsible Menu
 .admin-sidebar-collapsed.md-locked-open {
   .sidebar-left-title, .sidebar-left-icon {
     opacity: 0;
@@ -208,7 +208,7 @@ $submenu-overlay: #999999;
   }
 }
 
-// Logo
+// 網站的標誌 Logo
 .sidebar-left-toolbar {
   box-shadow: 0px 1px 0px rgba(0,0,0,0.12);
   z-index: 10;

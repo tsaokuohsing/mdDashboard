@@ -1,9 +1,9 @@
-// Breadcrumbs
+// 導覽路徑 Breadcrumbs
 .breadcrumb {
   display: inline-block;
 }
 
-// Toolbar Search
+// 工具列的搜尋 Toolbar Search
 .toolbar-search {
   background: transparent;
   border: 0;
@@ -27,7 +27,7 @@
   }
 }
 
-// Toolbar Avatar
+// 工具列的圖像 Toolbar Avatar
 .toolbar-user-avatar {
   width: 3rem;
   height: 3rem;
@@ -35,14 +35,14 @@
   vertical-align: middle;
 }
 
-// Button
+// 按鈕 Button
 .toolbar-button {
   md-icon {
     position: relative;
   }
 }
 
-// Badges
+// 徽章 Badges
 $mdd-badge-size: 2.2rem;
 .toolbar-button-badge {
   display: block;

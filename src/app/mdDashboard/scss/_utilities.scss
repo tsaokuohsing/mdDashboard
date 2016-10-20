@@ -1,17 +1,17 @@
-// Utilities
+//基本設定 Utilities
 
-// - Full height
+// - 全高 Full height
 .full-height {
   height: 100%;
 }
 
-// - Full width
+// - 全寬 Full width
 .full-width {
   width: 100%;
   max-width: 100%;
 }
 
-// - Margin Classes
+// - 邊寬的分類 Margin Classes
 .margin-normal {
   margin: 16px;
 }
@@ -35,7 +35,7 @@ $i : 0;
   $i : $i + 10;
 }
 
-// - Padding Classes
+// - 留白的分類 Padding Classes
 .padding-normal {
   padding: 16px;
 }
@@ -62,7 +62,7 @@ $i : 0;
   $i : $i + 10;
 }
 
-// - Opacity Classes
+// - 透明度的分類 Opacity Classes
 $i : 0;
 @while $i <= 1 {
   .opacity-#{floor($i * 100)} {
@@ -71,7 +71,7 @@ $i : 0;
   $i : $i + 0.1;
 }
 
-// - Overlay Classes
+// - 重疊的分類 Overlay Classes
 $i : 0;
 @while $i <= 1 {
   .overlay-#{floor($i * 100)} {
@@ -110,7 +110,7 @@ $i : 0;
   $i : $i + 0.05;
 }
 
-// - Positioning Classes
+// - 位置的分類 Positioning Classes
 .position-absolute {
   position: absolute;
 }
@@ -118,7 +118,7 @@ $i : 0;
   position: relative;
 }
 
-// - Translate Classes
+// - 翻譯的分類 Translate Classes
 $i : 0;
 @while $i <= 100 {
   .move-from-top-#{$i} {
@@ -136,12 +136,12 @@ $i : 0;
   $i : $i + 10;
 }
 
-// Color inherit
+// 顏色的繼承 Color inherit
 .color-inherit {
   color: inherit !important;
 }
 
-// Display classes
+// 呈現的分類 Display classes
 .display-block {
   display: block !important;
 }
@@ -163,7 +163,7 @@ $i : 0;
     clear: both;
 }
 
-// Animation content wrapper
+// 動畫內容的捲軸 Animation content wrapper
 .animate-wrapper {
   position: relative;
   > .ng-enter, > .ng-leave {
@@ -173,12 +173,12 @@ $i : 0;
   }
 }
 
-// Round classes
+// 圓角的分類 Round classes
 .make-round {
-  border-radius: 50%;
+  border-radius: 65%;
 }
 
-// Overfflow-classes
+// 溢出的分類 Overfflow-classes
 .overflow-visible {
   overflow: visible;
 }
@@ -189,16 +189,16 @@ $i : 0;
   overflow: hidden;
 }
 
-// Not selectable classes
+// 不選擇的分類 Not selectable classes
 .no-select {
   user-select: none;
 }
 
-// No shadow
+// 不要陰影 No shadow
 .no-shadow {
   box-shadow: none !important;
 }
-// Example Tabs
+// 範例的標籤 Example Tabs
 .example-tabs md-tab-content, .example-tabs md-content {
   background: rgba(100, 100, 100, 0.2);
 }
@@ -213,13 +213,13 @@ $i : 0;
   height: 500px;
 }
 
-// full background image
+// 背景圖 full background image
 .full-image-background {
   background-size: cover;
   background-position: center;
 }
 
-/* added to fix bug in chrome & safari when scrolling an md-content with a background image (was removing gradient) */
+/* 修改錯誤用的 added to fix bug in chrome & safari when scrolling an md-content with a background image (was removing gradient) */
 .background-overlay-static {
   position: static;
 }
